@@ -8,6 +8,13 @@ root.resizable(False, False)
 root.title('LabelFrame Demo')
 
 lf = ttk.Label(root, text='Alignment')
+"""
+pada kode ini digunakan untuk membuat elemen LabelFrame('lf') didalam jendela utama
+('root') LabelFrame adalah sebuah wadah yang dapat digunakan untuk mengelompokkan elemen-elemen
+lainnya dan memberikan judul (dalam hal ini Alignment) disekitarnya
+- root: ini adalah jendela utama 
+"""
+
 lf.grid(column=0, row=0, padx=20, pady=20)
 
 
